@@ -20,12 +20,12 @@
 |------|---------|-----------|-----------|
 | **[01. Fundamentals](./01_Fundamentals/)** | 5강 | 정보보안 기초, 취약점 분석, 위험 관리 | ✅ 포함 |
 | **[02. Server Security](./02_Server_Security/)** | 5강 | 서버 보안, 시스템 해킹, 침입 탐지 | ✅ 포함 |
-| **[03. Network Security](./03_Network_Security/)** | 6강 | 네트워크 보안, 방화벽, VPN, 무선 보안 | ✅ 포함 |
-| **[04. Application Security](./04_Application_Security/)** | 6강 | 웹 보안, 데이터베이스 보안, 암호학 | ✅ 포함 |
+| **[03. Network Security](./03_Network_Security/)** | 5강 | 네트워크 보안, 방화벽, VPN, 무선 보안 | ✅ 포함 |
+| **[04. Application Security](./04_Application_Security/)** | 5강 | 웹 보안, 데이터베이스 보안, 암호학 | ✅ 포함 |
 | **[05. Information Security Management](./05_Information_Security_Management/)** | 5강 | 정보보안 관리, 개인정보보호법 | ✅ 포함 |
 
 ### 📊 학습 통계
-- **총 강의 수**: 27강
+- **총 강의 수**: 25강
 - **총 실습 코드**: 100+ 파일
 - **예상 학습 시간**: 120-150시간
 - **실습 프로젝트**: 15개
@@ -71,11 +71,8 @@ pip install -r requirements.txt
 ### 01. Fundamentals (정보보안 기초)
 ```
 📁 01_Fundamentals/
-├── 01_Introduction_to_Information_Security.md      # 정보보안 개요
-├── 02_Threat_and_Vulnerability_Assessment.md      # 위협 및 취약점 평가
-├── 03_Risk_Management.md                          # 위험 관리
-├── 04_Security_Policies_and_Procedures.md         # 보안 정책 및 절차
-└── 05_Incident_Response.md                        # 사고 대응
+├── 01_Fundamentals_01.md      
+└── 02_Fundamentals_02.md                      
 ```
 
 **주요 학습 내용:**
@@ -87,11 +84,14 @@ pip install -r requirements.txt
 ### 02. Server Security (서버 보안)
 ```
 📁 02_Server_Security/
-├── 06_Operating_System_Security.md                # 운영체제 보안
-├── 07_Server_Hardening.md                        # 서버 강화
-├── 08_Access_Control_and_Authentication.md        # 접근 제어 및 인증
-├── 09_System_Monitoring_and_Logging.md           # 시스템 모니터링
-└── 10_Intrusion_Detection_Systems.md             # 침입 탐지 시스템
+├── 01_UNIX_Security_03.md            
+├── 02_UNIX_Security_04.md                   
+├── 03_UNIX_Security_05.md  
+├── 04_Windows_Security_06.md
+├── 05_Windows_Security_07.md
+├── 06_Windows_Security_08.md
+├── 07_Windows_Security_09.md
+└── 08_Windows_Security_10.md   
 ```
 
 **주요 학습 내용:**
@@ -103,12 +103,11 @@ pip install -r requirements.txt
 ### 03. Network Security (네트워크 보안)
 ```
 📁 03_Network_Security/
-├── 11_Network_Security_Fundamentals.md           # 네트워크 보안 기초
-├── 12_Firewall_and_IPS.md                       # 방화벽 및 IPS
-├── 13_VPN_and_Remote_Access.md                  # VPN 및 원격 접근
-├── 14_Wireless_Security.md                      # 무선 보안
-├── 15_Network_Monitoring_and_Analysis.md        # 네트워크 모니터링
-└── 16_Network_Attack_and_Defense.md             # 네트워크 공격과 방어
+├── 03_Network_Security_11.md        
+├── 03_Network_Security_12.md                   
+├── 03_Network_Security_13.md             
+├── 03_Network_Security_14.md                 
+└── 03_Network_Security_15.md          
 ```
 
 **주요 학습 내용:**
@@ -120,12 +119,11 @@ pip install -r requirements.txt
 ### 04. Application Security (애플리케이션 보안)
 ```
 📁 04_Application_Security/
-├── 17_Web_Application_Security.md               # 웹 애플리케이션 보안
-├── 18_Database_Security.md                      # 데이터베이스 보안
-├── 19_Secure_Coding_Practices.md               # 보안 코딩
-├── 20_Cryptography_and_PKI.md                  # 암호학 및 PKI
-├── 21_Mobile_Application_Security.md           # 모바일 앱 보안
-└── 22_API_and_Cloud_Security.md                # API 및 클라우드 보안
+├── 04_Application_Security_16.md
+├── 04_Application_Security_17.md                    
+├── 04_Application_Security_18.md             
+├── 04_Application_Security_19.md                  
+└── 04_Application_Security_20.md              
 ```
 
 **주요 학습 내용:**
@@ -137,18 +135,17 @@ pip install -r requirements.txt
 ### 05. Information Security Management (정보보안 관리)
 ```
 📁 05_Information_Security_Management/
-├── 23_Information_Security_Concepts.md          # 정보보안 개념
-├── 24_Personal_Data_Protection_1.md            # 개인정보보호 (1)
-├── 25_Personal_Data_Protection_2.md            # 개인정보보호 (2)
-├── 26_Personal_Data_Protection_3.md            # 개인정보보호 (3)
-└── 27_Security_Governance_and_Compliance.md    # 보안 거버넌스
+├── 05_Information_Security_Management_21.md      
+├── 05_Information_Security_Management_22.md        
+├── 05_Information_Security_Management_23.md        
+├── 05_Information_Security_Management_24.md         
+└── 05_Information_Security_Management_25.md 
 ```
 
 **주요 학습 내용:**
 - 개인정보보호법 및 정보통신망법
 - OECD 8원칙 및 국제 표준
 - 정보주체의 권리 및 동의 관리
-- 보안 거버넌스 체계
 
 ## 🛠️ 기술 스택
 
@@ -189,7 +186,7 @@ pip install -r requirements.txt
 | 정보보안 관리 | 10% | 6문항 |
 
 ### 시험 준비 체크리스트
-- [ ] 5개 필수 과목 완주 (27강)
+- [ ] 5개 필수 과목 완주 (25강)
 - [ ] 실습 코드 직접 실행 및 이해
 - [ ] Lab Projects 최소 10개 완료
 - [ ] 모의고사 3회 이상 응시 (70점 이상)
@@ -218,9 +215,7 @@ pip install -r requirements.txt
 5. Open a Pull Request
 
 ### 피드백
-- 📧 이메일: [contact@example.com](mailto:contact@example.com)
-- 🐛 버그 리포트: [Issues](https://github.com/your-repo/issues)
-- 💡 기능 제안: [Discussions](https://github.com/your-repo/discussions)
+- 📧 이메일: [root.bin.vi@gmail.com](mailto:root.bin.vi@gmail.com)
 
 ## 📝 라이선스
 
@@ -241,17 +236,11 @@ pip install -r requirements.txt
 ### ✅ 학습 완료 체크리스트
 - [ ] **01. Fundamentals** (5강) - 정보보안 기초
 - [ ] **02. Server Security** (5강) - 서버 보안
-- [ ] **03. Network Security** (6강) - 네트워크 보안  
-- [ ] **04. Application Security** (6강) - 애플리케이션 보안
+- [ ] **03. Network Security** (5강) - 네트워크 보안  
+- [ ] **04. Application Security** (5강) - 애플리케이션 보안
 - [ ] **05. Information Security Management** (5강) - 정보보안 관리
 - [ ] **Lab Projects** - 실습 프로젝트 10개 이상 완료
 - [ ] **모의고사** - 3회 이상 응시 (평균 70점 이상)
-
-### 🏆 수료 혜택
-- 수료증 발급 (디지털 뱃지)
-- LinkedIn 프로필 인증
-- 해킹보안전문가 커뮤니티 가입 자격
-- 지속적인 업데이트 자료 접근
 
 ---
 
