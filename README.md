@@ -18,8 +18,8 @@
 
 | 과목 | 강의 수 | 주요 내용 | 실습 코드 |
 |------|---------|-----------|-----------|
-| **[01. Fundamentals](./01_Fundamentals/)** | 5강 | 정보보안 기초, 취약점 분석, 위험 관리 | ✅ 포함 |
-| **[02. Server Security](./02_Server_Security/)** | 5강 | 서버 보안, 시스템 해킹, 침입 탐지 | ✅ 포함 |
+| **[01. Fundamentals](./01_Fundamentals/)** | 2강 | 정보보안 기초, 취약점 분석, 위험 관리 | ✅ 포함 |
+| **[02. Server Security](./02_Server_Security/)** | 8강 | 서버 보안, 시스템 해킹, 침입 탐지 | ✅ 포함 |
 | **[03. Network Security](./03_Network_Security/)** | 5강 | 네트워크 보안, 방화벽, VPN, 무선 보안 | ✅ 포함 |
 | **[04. Application Security](./04_Application_Security/)** | 5강 | 웹 보안, 데이터베이스 보안, 암호학 | ✅ 포함 |
 | **[05. Information Security Management](./05_Information_Security_Management/)** | 5강 | 정보보안 관리, 개인정보보호법 | ✅ 포함 |
@@ -234,8 +234,8 @@ pip install -r requirements.txt
 과정을 완료하신 분들을 위한 수료 체크리스트:
 
 ### ✅ 학습 완료 체크리스트
-- [ ] **01. Fundamentals** (5강) - 정보보안 기초
-- [ ] **02. Server Security** (5강) - 서버 보안
+- [ ] **01. Fundamentals** (2강) - 정보보안 기초
+- [ ] **02. Server Security** (8강) - 서버 보안
 - [ ] **03. Network Security** (5강) - 네트워크 보안  
 - [ ] **04. Application Security** (5강) - 애플리케이션 보안
 - [ ] **05. Information Security Management** (5강) - 정보보안 관리
