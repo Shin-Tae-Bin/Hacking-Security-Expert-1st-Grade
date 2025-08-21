@@ -197,7 +197,6 @@ pip install -r requirements.txt
 ### 필수 참고 자료
 - [Resources.md](./Resources.md) - 추가 학습 자료 및 도구
 - [Lab_Projects.md](./Lab_Projects.md) - 실습 프로젝트 가이드
-- [FAQ.md](./FAQ.md) - 자주 묻는 질문
 
 ### 유용한 링크
 - 🏛️ [한국인터넷진흥원(KISA)](https://www.kisa.or.kr)
